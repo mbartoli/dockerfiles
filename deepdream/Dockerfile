@@ -1,8 +1,6 @@
 FROM debian:latest
 MAINTAINER Mike Bartoli "michael.bartoli@pomona.edu"
 
-FROM debian
-
 RUN apt-get clean && apt-get update && apt-get install -y \
 	bc \
 	ca-certificates \
