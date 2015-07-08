@@ -1,6 +1,6 @@
 # langid
 
-Dockerfile for language identification, based on langid.py. Returns the text's indentified language with confidence score in JSON.
+Dockerfile for language identification, based on langid.py. Returns the text's indentified language with a confidence score in JSON.
     
     
 To start the server:   
