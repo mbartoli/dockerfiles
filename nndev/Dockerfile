@@ -46,5 +46,5 @@ RUN \
 # extras for torch
 # RUN luarocks install nn nngraph dp rnn image senna torch-ipython cunn cutorch cunnx cudnn
 
-WORKDIR /home
-RUN git clone https://github.com/karpathy/char-rnn
+#WORKDIR /home
+#RUN git clone https://github.com/karpathy/char-rnn
