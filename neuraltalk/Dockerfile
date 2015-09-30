@@ -1,4 +1,4 @@
-# Version 0.0.1
+# Version 1.0.0
 FROM ubuntu:12.04
 MAINTAINER Mike Bartoli "michael.bartoli@pomona.edu"
 RUN apt-get update
@@ -33,5 +33,3 @@ RUN unzip coco_cnn_lstm_v2.zip
 WORKDIR /home/neuraltalk/data
 RUN wget http://cs.stanford.edu/people/karpathy/deepimagesent/coco.zip
 RUN unzip coco.zip
-
-
